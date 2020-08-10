@@ -11,13 +11,13 @@ if(isset($_POST['log'])){
 $row=mysql_query("select password from register where email='$user'") or die(mysql_error());
 $col=mysql_fetch_array($row) or die(mysql_error());
 if($col[0]==$password)
-	header("Location:farmer/index.php");
+	header("Location:login/index.php");
 else
 	echo "<script>alert('Login Not Accepted !');</script>";
 	}
 if($type=='admin'){
-if($user=='admin' && $password=='admin')
-	header("Location:admin/index.php");
+if($user=='admin' && $password=='user')
+	header("Location:login/index.php");
 else
 	echo "<script>alert('Login Not Accepted !');</script>";
 	}
