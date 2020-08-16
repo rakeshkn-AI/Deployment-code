@@ -6,4 +6,4 @@ if num > 1:
             break
         else:
             print(num, "is a prime number")
-            
+
