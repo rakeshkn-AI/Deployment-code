@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from Aialz Technologies.com/l/letsdrive/LivePreview/{{url_for('blog')}} by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Apr 2019 10:39:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Let's Drive</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="static/css/jquery.selectBox.css">
+		<link rel="stylesheet" type="text/css" href="static/css/simple-line-icons.css">
+		<link href="../../../../vjs.zencdn.net/5.9.2/video-js.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="static/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="static/css/global.css">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" >
+		<link rel="stylesheet" type="text/css" href="static/css/responsive.css">
+		<link rel="stylesheet" type="text/less" href="static/css/skin.less">
+	</head>
+	<body>
+
+		<!--Loader Start-->
+		<div class="loader">
+			<div class="sk-circle">
+				<div class="sk-circle1 sk-child"></div>
+				<div class="sk-circle2 sk-child"></div>
+				<div class="sk-circle3 sk-child"></div>
+				<div class="sk-circle4 sk-child"></div>
+				<div class="sk-circle5 sk-child"></div>
+				<div class="sk-circle6 sk-child"></div>
+				<div class="sk-circle7 sk-child"></div>
+				<div class="sk-circle8 sk-child"></div>
+				<div class="sk-circle9 sk-child"></div>
+				<div class="sk-circle10 sk-child"></div>
+				<div class="sk-circle11 sk-child"></div>
+				<div class="sk-circle12 sk-child"></div>
+			</div>
+		</div>
+		<!--Loader End-->
+
+		<!--Page Wrapper Start-->
+		<div id="wrapper" class="blog">
+
+			<!--Header Section Start-->
+			<header id="header" class="header">
+				<div class="container">
+					<div class="row ">
+						<div class="col-xs-12">
+							<div class="header-cont clearfix">
+								<a href="{{url_for('index')}}" class="logo"> <img src="static/images/logo.png" alt=""/> </a>
+								<div class="header-info">
+									<div class="social-content clearfix">
+										<div class="contact-det hidden-xs">
+											<ul>
+												<li>
+													<a href="#">The Guide</a>/
+												</li>
+												<li>
+													<a href="#">Our Crew </a>/
+												</li>
+												<li>
+													<a href="#">Became a Partner </a>/
+												</li>
+												<li>
+													<a href="tel:080-41239077">080-41239077 </a>/
+												</li>
+												<li>
+													<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#3459555d58745851404750465d42511a575b59"><span class="__cf_email__" data-cfemail="a1ccc0c8cde1cdc4d5d2c5d3c8d7c48fc2cecc">[email&#160;protected]</span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="social-det">
+											<ul>
+												<li>
+													<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+												</li>
+
+											</ul>
+											<div class="select-box">
+												<select class="select">
+													<option value="English">EN</option>
+													<option value="French">FR</option>
+													<option value="German">GR</option>
+												</select>
+											</div>
+											<div class="login">
+												<a href="#"><span>Login</span><i class="fa fa-lock" aria-hidden="true"></i></a>
+											</div>
+										</div>
+									</div>
+
+									<nav class="navbar">
+
+										<!-- Brand and toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+											<ul class="nav navbar-nav navigation clearfix">
+
+												<li>
+													<a href="{{url_for('index')}}">HOME</a>
+												</li>
+												<li class="drop-down-parent">
+													<a href="#">SERVICES <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('ourservices')}}">our service</a>
+														</li>
+														<li>
+															<a href="{{url_for('servicespage')}}">service</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="drop-down-parent">
+													<a href="#">VEHICLES <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('vehiclespage')}}">vehicles</a>
+														</li>
+														<li>
+															<a href="{{url_for('allvehicles')}}">all vehicles</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="{{url_for('aboutus')}}">ABOUT</a>
+												</li>
+
+												<li class=" active drop-down-parent">
+													<a href="#">BLOG <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('blog')}}">blog</a>
+														</li>
+														<li>
+															<a href="{{url_for('blogpage')}}">blog-page</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="{{url_for('contactus')}}">CONTACT</a>
+												</li>
+											</ul>
+											<div class="header-search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+												<input type="text" class="search-bar" placeholder="Search here..." />
+											</div>
+										</div><!-- /.navbar-collapse -->
+
+									</nav>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--Header Section End-->
+
+			<!--Content Section Start-->
+			<div id="content">
+				<section class="banner2">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 ">
+								<h1>Company Blog</h1>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<ol class="breadcrumb">
+									<li>
+										<a href="{{url_for('index')}}">Home</a>
+									</li>
+									<li>
+										<a href="#">Bread</a>
+									</li>
+									<li class="active">
+										Crumbs
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container">
+					<div class="row po-rel pattern">
+						<div class="col-xs-12 col-sm-9">
+							<div class="row services-inner-section ">
+								<div class="blog-post">
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services zoom">
+											<figure class="services-img-section">
+												<img src="static/images/blog-one.jpg" alt="service-img3" />
+											</figure>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<h5 class="view-title-style"><a href="#">Blog post title</a></h5>
+											<p>
+												Fusce vulputate eleifend sapien. stibulum purus quam, scelerisque utse, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Crasea ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Phasellus accumsan ...
+											</p>
+
+											<div class="blog-date-comment">
+												<span class="blog-date">06 August 2015</span>
+												<span class="blog-favorate"> / 426 <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<span class="blog-comment"> / 12 <i class="fa fa-commenting" aria-hidden="true"></i></span>
+											</div>
+
+											<div class="btn-bar">
+												<a href="{{url_for('blogpage')}}" class="orange-btn"><i aria-hidden="true" class="fa fa-plus-circle"></i>read more</a>
+
+												<a href="#" class="blog-icon"><i class="fa fa-book"> </i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row services-inner-section ">
+								<div class="blog-post margin-top">
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<div class="services-img-section">
+					
+												<video id="my-video" class="video-js" controls preload="auto" width="408" height="295"
+												 data-setup="{}">
+													<source src="static/images/big-buck-bunny.mp4" type='video/mp4'>
+													<source src="static/images/big-buck-bunny.webm" type='video/webm'>
+													<p class="vjs-no-js">
+													To view this video please enable JavaScript, and consider upgrading to a web browser that
+													<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+													</p>
+												</video>
+											</div>
+											
+										</div>
+									</div>
+
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<h5 class="view-title-style"><a href="#">Blog post title</a></h5>
+											<p>
+												Fusce vulputate eleifend sapien. stibulum purus quam, scelerisque utse, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Crasea ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Phasellus accumsan ...
+											</p>
+
+											<div class="blog-date-comment">
+												<span class="blog-date">06 August 2015</span>
+												<span class="blog-favorate"> / 426 <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<span class="blog-comment"> / 12 <i class="fa fa-commenting" aria-hidden="true"></i></span>
+											</div>
+
+											<div class="btn-bar">
+												<a href="{{url_for('blogpage')}}" class="orange-btn"><i aria-hidden="true" class="fa fa-plus-circle"></i>read more</a>
+
+												<a href="#" class="blog-icon"><i class="fa fa-volume-up"> </i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row services-inner-section ">
+								<div class="blog-post margin-top">
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services ">
+											<div class="services-img-section video">
+												<img src="static/images/blog-three.jpg" alt="video-img"  data-video="https://www.youtube.com/embed/Zfe4wX5bEys"/>
+												<a class="play-btn" href="#"> <i class="fa fa-youtube-play"> </i> </a>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<h5 class="view-title-style"><a href="#">Blog post title</a></h5>
+											<p>
+												Fusce vulputate eleifend sapien. stibulum purus quam, scelerisque utse, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Crasea ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Phasellus accumsan ...
+											</p>
+
+											<div class="blog-date-comment">
+												<span class="blog-date">06 August 2015</span>
+												<span class="blog-favorate"> / 426 <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<span class="blog-comment"> / 12 <i class="fa fa-commenting" aria-hidden="true"></i></span>
+											</div>
+
+											<div class="btn-bar">
+												<a href="{{url_for('blogpage')}}" class="orange-btn"><i aria-hidden="true" class="fa fa-plus-circle"></i>read more</a>
+
+												<a href="#" class="blog-icon"><i class="fa fa-video-camera"> </i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row services-inner-section ">
+								<div class="blog-post margin-top">
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services zoom">
+											<figure class="services-img-section">
+												<img src="static/images/blog-four.jpg" alt="service-img3" />
+											</figure>
+
+										</div>
+									</div>
+
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<h5 class="view-title-style"><a href="#">Blog post title</a></h5>
+											<p>
+												Fusce vulputate eleifend sapien. stibulum purus quam, scelerisque utse, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Crasea ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Phasellus accumsan ...
+											</p>
+
+											<div class="blog-date-comment">
+												<span class="blog-date">06 August 2015</span>
+												<span class="blog-favorate"> / 426 <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<span class="blog-comment"> / 12 <i class="fa fa-commenting" aria-hidden="true"></i></span>
+											</div>
+
+											<div class="btn-bar">
+												<a href="{{url_for('blogpage')}}" class="orange-btn"><i aria-hidden="true" class="fa fa-plus-circle"></i>read more</a>
+
+												<a href="#" class="blog-icon"><i class="fa fa-quote-right"> </i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row services-inner-section ">
+								<div class="blog-post margin-top">
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services zoom">
+											<figure class="services-img-section">
+												<img src="static/images/blog-five.jpg" alt="service-img3" />
+											</figure>
+
+										</div>
+									</div>
+
+									<div class="col-xs-12 col-sm-6">
+										<div class="view-services">
+											<h5 class="view-title-style"><a href="#">Blog post title</a></h5>
+											<p>
+												Fusce vulputate eleifend sapien. stibulum purus quam, scelerisque utse, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Crasea ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Phasellus accumsan ...
+											</p>
+
+											<div class="blog-date-comment">
+												<span class="blog-date">06 August 2015</span>
+												<span class="blog-favorate"> / 426 <i class="fa fa-heart" aria-hidden="true"></i> </span>
+												<span class="blog-comment"> / 12 <i class="fa fa-commenting" aria-hidden="true"></i></span>
+											</div>
+
+											<div class="btn-bar">
+												<a href="{{url_for('blogpage')}}" class="orange-btn"><i aria-hidden="true" class="fa fa-plus-circle"></i>read more</a>
+
+												<a href="#" class="blog-icon"><i class="fa fa-picture-o"> </i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xs-12 col-sm-12">
+									<nav class="services-pagination">
+										<ul class="pagination">
+											<li>
+												<a href="#" aria-label="Previous"><i class="fa fa-long-arrow-left" aria-hidden="true"></i><span aria-hidden="true">prev</span></a>
+											</li>
+											<li>
+												<a href="#">1</a>
+											</li>
+											<li class="active">
+												<a href="#">2 <span class="sr-only">(current)</span></a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li>
+												<a href="#">4</a>
+											</li>
+											<li>
+												<a href="#" aria-label="Next"><span aria-hidden="true">next</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-xs-12 col-sm-3">
+							<div class="help-box">
+								<h4>Ad Banner</h4>
+								<p>
+									Fusce vulputate eleifend sapien. Vestibulum purus quam, risque.
+									Nullam accumsan lorem in.
+									Cras ultricies mi eu
+								</p>
+								<img src="static/images/side--banner.png" alt="lets drive" class="side-banner" />
+
+								<a href="{{url_for('contactus')}}" class="orange-btn"><i class="fa fa-phone" aria-hidden="true"></i>contact us</a>
+							</div>
+
+							<a href="#" class="orange-btn pdf-down"><i class="fa fa-car" aria-hidden="true"></i>Rent your own car</a>
+
+							<div class="inner-info-section">
+								<div class="side-menu-block">
+									<h5 class="view-title-style">Categories</h5>
+									<ul>
+										<li>
+											<a href="#">Technology<i class="fa fa-angle-right"> </i><span class="category-text">[14]</span></a>
+										</li>
+										<li>
+											<a href="#">Auto News<i class="fa fa-angle-right"></i><span class="category-text">[24]</span></a>
+										</li>
+										<li>
+											<a href="#">Auto Reviews<i class="fa fa-angle-right"></i><span class="category-text">[36]</span></a>
+										</li>
+										<li>
+											<a href="#">Events<i class="fa fa-angle-right"></i><span class="category-text">[18]</span></a>
+										</li>
+										<li>
+											<a href="#">Lifestyle<i class="fa fa-angle-right"></i><span class="category-text">[46]</span></a>
+										</li>
+									</ul>
+								</div>
+								<div class="side-menu-block popular-post">
+									<h5 class="view-title-style">Popular posts</h5>
+									<ul>
+										<li>
+											<div class="posts clearfix">
+
+												<figure>
+													<img src="static/images/blog-one.jpg" alt="lets drive"/>
+												</figure>
+
+												<div class="blog-date-comment">
+													<a href="{{url_for('blogpage')}}"> <strong>Blog Post Title in two lines as example</strong> </a>
+													<span class="blog-date">06 August 2015</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="posts clearfix">
+
+												<figure>
+													<img src="static/images/blog-two.jpg" alt="lets drive"/>
+												</figure>
+
+												<div class="blog-date-comment">
+													<a href="{{url_for('blogpage')}}"> <strong>Blog Post Title in two lines as example</strong></a>
+													<span class="blog-date">06 August 2015</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="posts clearfix">
+
+												<figure>
+													<img src="static/images/blog-three.jpg" alt="lets drive"/>
+												</figure>
+
+												<div class="blog-date-comment">
+												<a href="{{url_for('blogpage')}}">	<strong>Blog Post Title in two lines as example</strong></a>
+													<span class="blog-date">06 August 2015</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="posts clearfix">
+
+												<figure>
+													<img src="static/images/blog-four.jpg" alt="lets drive"/>
+												</figure>
+
+												<div class="blog-date-comment">
+												<a href="{{url_for('blogpage')}}">	<strong>Blog Post Title in two lines as example</strong></a>
+													<span class="blog-date">06 August 2015</span>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+
+								<div class="side-menu-block cloud-list-wrap">
+									<h5 class="view-title-style">Tag Cloud</h5>
+									<ul class="cloud-list clearfix">
+										<li>
+											<a class="orange-btn" href="#">Car</a>
+										</li>
+										<li>
+											<a class="orange-btn" href="#">Moto</a>
+										</li>
+										<li>
+											<a class="orange-btn" href="#">Rent</a>
+										</li>
+										<li>
+											<a class="orange-btn" href="#">Vehicles</a>
+										</li>
+										<li>
+											<a class="orange-btn" href="#">Offers</a>
+										</li>
+										<li>
+											<a class="orange-btn" href="#">Hot</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="contact-info">
+									<h5 class="view-title-style">Contact Us</h5>
+									<address>
+										PO Box: 16122 Collins Victoria 8007 <span class="line-break"></span>
+										Address: 121 King Street, Melbourne<span class="line-break"></span>
+										Victoria <span class="line-break"></span>
+										3000 Australia <span class="line-break"></span>
+										Email:<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#f29f939b9eb29e97868196809b8497dc919d9f"> <span class="__cf_email__" data-cfemail="325f535b5e725e57464156405b44571c515d5f">[email&#160;protected]</span></a><span class="line-break"></span>
+										Phone: <a href="tel:88001234567">8 800 12 34 567</a><span class="line-break"></span>
+										Fax: <a href="fax:80009876543 ">+8 000 98 76 543 </a><span class="line-break"></span>
+									</address>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="border-line">
+							&nbsp;
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!--Content Section End-->
+
+			<!--Footer Section start-->
+			<footer id="footer" class="bdr-0">
+				<div class="primary-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4">
+								<div class="about-us-footer">
+									<h5 class="view-title-style">About Us</h5>
+									<p>
+										Envato is proudly based in Melbourne, Australia, but our people and community live and work from all over the world.
+									</p>
+									<p>
+										We believe good ideas deserve a chance to grow. We believe people deserve to earn a living doing what they love.
+									</p>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-4 text-center footer-img-gap">
+								<a href="{{url_for('index')}}" class="footer-logo"><img src="static/images/footer-logo.jpg" alt="lets drive" /></a>
+							</div>
+							<div class="col-xs-12 col-sm-4 text-right contact-info-footer">
+								<h5 class="view-title-style">Contact Us</h5>
+								<address>
+									PO Box: 16122 Collins Victoria 8007 <span class="line-break"></span>
+									Address: 121 King Street, Melbourne<span class="line-break"></span>
+									Victoria <span class="line-break"></span>
+									3000 Australia <span class="line-break"></span>
+									Email:<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#a5c8c4ccc9e5c9c0d1d6c1d7ccd3c08bc6cac8"> <span class="__cf_email__" data-cfemail="a7cac6cecbe7cbc2d3d4c3d5ced1c289c4c8ca">[email&#160;protected]</span></a><span class="line-break"></span>
+									Phone: <a href="tel:88001234567">8 800 12 34 567</a><span class="line-break"></span>
+									Fax: <a href="fax:80009876543 ">+8 000 98 76 543 </a><span class="line-break"></span>
+								</address>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom text-center">
+					<div class="container">
+						<span>&copy; All Rights Reserved. Create by <a href="http://Aialz Technologies.com/">Aialz Technologies</a></span>
+					</div>
+				</div>
+
+			</footer>
+			<!--Footer Section End-->
+		</div>
+		<!--Page Wrapper End-->
+
+		<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="static/js/bootstrap.js"></script>
+		<script src="../../../../vjs.zencdn.net/5.9.2/video.js"></script>
+		<script type="text/javascript" src="static/js/jquery.selectBox.js"></script>
+		<script type="text/javascript" src="static/js/less.js"></script>
+		<script type="text/javascript" src="static/js/site.js"></script>
+
+		<!-- Switcher Js -->
+		<script src="static/js/theme-option/style-switcher/static/js/style.switcher.js"></script>
+		<script src="static/js/theme-option/style-switcher/static/js/jquery.cookie.js"></script>
+		<!-- Switcher Js -->
+	</body>
+
+<!-- Mirrored from Aialz Technologies.com/l/letsdrive/LivePreview/{{url_for('blog')}} by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Apr 2019 10:39:29 GMT -->
+</html>

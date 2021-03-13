@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from Aialz Technologies.com/l/letsdrive/LivePreview/{{url_for('allvehicles')}} by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Apr 2019 10:39:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Let's Drive</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="static/css/simple-line-icons.css">
+		<link rel="stylesheet" type="text/css" href="static/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="static/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="static/css/jquery.selectBox.css">
+		<link rel="stylesheet" type="text/css" href="static/css/jquery.fancybox.css">
+		<link rel="stylesheet" type="text/css" href="static/css/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="static/css/global.css">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" >
+		<link rel="stylesheet" type="text/css" href="static/css/responsive.css">
+		<link rel="stylesheet" type="text/less" href="static/css/skin.less">
+	</head>
+	<body>
+
+		<!--Loader Start-->
+		<div class="loader">
+			<div class="sk-circle">
+				<div class="sk-circle1 sk-child"></div>
+				<div class="sk-circle2 sk-child"></div>
+				<div class="sk-circle3 sk-child"></div>
+				<div class="sk-circle4 sk-child"></div>
+				<div class="sk-circle5 sk-child"></div>
+				<div class="sk-circle6 sk-child"></div>
+				<div class="sk-circle7 sk-child"></div>
+				<div class="sk-circle8 sk-child"></div>
+				<div class="sk-circle9 sk-child"></div>
+				<div class="sk-circle10 sk-child"></div>
+				<div class="sk-circle11 sk-child"></div>
+				<div class="sk-circle12 sk-child"></div>
+			</div>
+		</div>
+		<!--Loader End-->
+
+		<!--Page Wrapper Start-->
+		<div id="wrapper">
+
+			<!--Header Section Start-->
+			<header id="header" class="header">
+				<div class="container">
+					<div class="row ">
+						<div class="col-xs-12">
+							<div class="header-cont clearfix">
+								<a href="{{url_for('index')}}" class="logo"> <img src="static/images/logo.png" alt=""/> </a>
+								<div class="header-info">
+									<div class="social-content clearfix">
+										<div class="contact-det hidden-xs ">
+											<ul>
+												<li>
+													<a href="#">The Guide</a>/
+												</li>
+												<li>
+													<a href="#">Our Crew </a>/
+												</li>
+												<li>
+													<a href="#">Became a Partner </a>/
+												</li>
+												<li>
+													<a href="tel:080-41239077">080-41239077 </a>/
+												</li>
+												<li>
+													<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#2c414d45406c4049585f485e455a49024f4341"><span class="__cf_email__" data-cfemail="2e434f47426e424b5a5d4a5c47584b004d4143">[email&#160;protected]</span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="social-det">
+											<ul>
+												<li>
+													<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+												</li>
+
+											</ul>
+											<div class="select-box">
+												<select class="select">
+													<option value="English">EN</option>
+													<option value="French">FR</option>
+													<option value="German">GR</option>
+												</select>
+
+											</div>
+											<div class="login">
+												<a href="#"><span>Login</span><i class="fa fa-lock" aria-hidden="true"></i></a>
+											</div>
+										</div>
+									</div>
+
+									<nav class="navbar">
+
+										<!-- Brand and toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+											<ul class="nav navbar-nav navigation clearfix">
+
+												<li>
+													<a href="{{url_for('index')}}">HOME</a>
+												</li>
+												<li class="drop-down-parent">
+													<a href="#">SERVICES <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('ourservices')}}">our service</a>
+														</li>
+														<li>
+															<a href="{{url_for('servicespage')}}">service</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="active drop-down-parent">
+													<a href="#">VEHICLES <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('vehiclespage')}}">vehicles</a>
+														</li>
+														<li>
+															<a href="{{url_for('allvehicles')}}">all vehicles</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="{{url_for('aboutus')}}">ABOUT</a>
+												</li>
+
+												<li class="drop-down-parent">
+													<a href="#">BLOG <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i> <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> </a>
+													<ul class="drop-down">
+														<li>
+															<a href="{{url_for('blog')}}">blog</a>
+														</li>
+														<li>
+															<a href="{{url_for('blogpage')}}">blog-page</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="{{url_for('contactus')}}">CONTACT</a>
+												</li>
+											</ul>
+											<div class="header-search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+												<input type="text" class="search-bar" placeholder="Search here..." />
+											</div>
+										</div><!-- /.navbar-collapse -->
+
+									</nav>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--Header Section End-->
+
+			<!--Content Section Start-->
+			<div id="content">
+				<section class="banner2 banner-margin-zero">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 ">
+								<h1>All Vehicles</h1>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<ol class="breadcrumb">
+									<li>
+										<a href="{{url_for('index')}}">Home </a>
+									</li>
+									<li>
+										<a href="#"> Bread </a>
+									</li>
+									<li class="active">
+										Crumbs
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="all-vehcles-filter">
+					<div class="container">
+						<div class="filter clearfix">
+							<h4> Filter By </h4>
+							<select name="body-type">
+								<option value="1">Body type</option>
+								<option value="1">Body type</option>
+							</select>
+							<select name="engine-type" >
+								<option value="1">Engine's type</option>
+								<option value="1">Engine's type</option>
+							</select>
+							<select name="gearbox-type">
+								<option value="1">Gearbox Type</option>
+								<option value="1">Gearbox Type</option>
+							</select>
+							<a href="#"><span>More info</span><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</section>
+
+				<section class="main-vehicles-wrap">
+					<div class="container">
+						<div class="row po-rel pattern">
+							<div class="col-xs-12 col-sm-8 col-md-9">
+								<div class="row">
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car5.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car1.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Passat CC</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <em>$38</em> <small> $120</small> <strong>/ Per day</strong></span>
+											<span class="discount">-20%</span>
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car6.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car2.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Golf 2015</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car7.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car3.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Golf 2015 Gray</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $48</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car8.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car4.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Audi Q7 TDI Quattro</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car8.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car1.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Audi Q7 TDI Quattro</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <em>$38</em> <small> $120</small> <strong>/ Per day</strong></span>
+											
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car9.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car2.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Audi SQ5 2015</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car10.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car3.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Audi 2015 R8</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $48</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car11.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car4.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Toyota Tacoma V6 2016</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car12.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car1.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Passat CC</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <em>$38</em> <small> $120</small> <strong>/ Per day</strong></span>
+												
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car13.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car2.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Golf 2015</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car14.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car3.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Volkswagen Golf 2015 Gray</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $48</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<div class="filter-cars">
+											<div class="filter-inner">
+												<img src="static/images/car15.jpg" alt="" />
+												<div class="filter-widgets">
+													<strong><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a> <a class="fancybox-button" data-fancybox-group="fancybox-button" href="static/images/car4.jpg" title=""><i class="fa fa-search-plus" aria-hidden="true"></i></a> </strong>
+												</div>
+											</div>
+											<div class="filter-car-details clearfix">
+
+												<h5>Audi Q7 TDI Quattro</h5>
+												<ul class="filter-car-rating clearfix">
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li>
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</li>
+													<li class="grey-star">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</li>
+												</ul>
+												<span>Start from <small> $120</small> <strong>/ Per day</strong></span>
+
+											</div>
+											<ul class="filter-car-more-info clearfix">
+												<li>
+													<i class="fa fa-car" aria-hidden="true"></i>2011
+												</li>
+												<li>
+													<i class="fa fa-tachometer" aria-hidden="true"></i>Diesel
+												</li>
+												<li>
+													<i class="fa fa-cog" aria-hidden="true"></i>Auto
+												</li>
+												<li>
+													<i class="fa fa-road" aria-hidden="true"></i>15000
+												</li>
+												<li class="orange-btn">
+													<a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>rent now</a>
+												</li>
+											</ul>
+
+										</div>
+
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-xs-12 col-sm-12">
+										<nav class="services-pagination">
+											<ul class="pagination">
+												<li>
+													<a href="#" aria-label="Previous"><i class="fa fa-long-arrow-left" aria-hidden="true"></i><span aria-hidden="true">prev</span></a>
+												</li>
+												<li>
+													<a href="#">1</a>
+												</li>
+												<li class="active">
+													<a href="#">2 <span class="sr-only">(current)</span></a>
+												</li>
+												<li>
+													<a href="#">3</a>
+												</li>
+												<li>
+													<a href="#">4</a>
+												</li>
+												<li>
+													<a href="#" aria-label="Next"><span aria-hidden="true">next</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-xs-12 col-sm-4 col-md-3">
+
+								<div class="filter-car-aside">
+									<div class="filter-car-selection">
+										<h4>Filter Cars</h4>
+										<select name="body-type">
+											<option value="1">Auto maker</option>
+											<option value="1">Auto maker</option>
+										</select>
+										<select name="body-type">
+											<option value="1">Model</option>
+											<option value="1">Model</option>
+										</select>
+										<select name="body-type">
+											<option value="1">Reg. Year</option>
+											<option value="1">Reg. Year</option>
+										</select>
+										<select name="body-type">
+											<option value="1">Gearbox Type</option>
+											<option value="1">Gearbox Type</option>
+										</select>
+									</div>
+									<div class="price-per-day">
+										<div class="offer-overlay">
+											&nbsp;
+										</div>
+										<div class="range-wrap">
+											<h6>Price Per Day</h6>
+											<div id="slider"></div>
+											<div class="amout-values clearfix">
+												<input type="text" id="amount1" readonly />
+												<input type="text" id="amount2" readonly />
+											</div>
+										</div>
+									</div>
+
+									<div class="filter-vehicles-btn">
+										<a href="#" class="orange-btn"> <i class="fa fa-filter" aria-hidden="true"></i> Filter Vehicles</a>
+									</div>
+
+								</div>
+
+								<div class="vehicles-type">
+									<h5 class="view-title-style">Vehicles type</h5>
+
+									<ul class="vehicle-type-list">
+										<li>
+											<label for="type1">
+												<input type="checkbox"  name="type1" id="type1" checked="checked" />
+												<span class="check-in"></span> Scooters &amp; Bikes <small>[3424]</small></label>
+										</li>
+										<li>
+											<label for="type2">
+												<input type="checkbox"  name="type2" id="type2" checked="checked" />
+												<span class="check-in"></span> Personal Cars<small>[6248]</small></label>
+										</li>
+										<li>
+											<label for="type3">
+												<input type="checkbox"  name="type3" id="type3" checked="checked" />
+												<span class="check-in"></span> SUVS &amp; Pickups <small>[1756]</small></label>
+										</li>
+										<li>
+											<label for="type4">
+												<input type="checkbox"  name="type4" id="type4" />
+												<span class="check-in"></span> Family Cars <small>[640]</small></label>
+										</li>
+										<li>
+											<label for="type5">
+												<input type="checkbox"  name="type5" id="type5" />
+												<span class="check-in"></span> Vans &amp; Trucks<small>[572]</small></label>
+										</li>
+									</ul>
+								</div>
+								<div class="vehicles-type">
+									<h5 class="view-title-style">Engine's type</h5>
+
+									<ul class="vehicle-type-list">
+										<li>
+											<label for="etype1">
+												<input type="checkbox"  name="etype1" id="etype1" checked="checked" />
+												<span class="check-in"></span> Petrol <small>[24]</small></label>
+										</li>
+										<li>
+											<label for="etype2">
+												<input type="checkbox"  name="etype2" id="etype2"  />
+												<span class="check-in"></span> Diesel<small>[6248]</small></label>
+										</li>
+										<li>
+											<label for="etype3">
+												<input type="checkbox"  name="etype3" id="etype3"  />
+												<span class="check-in"></span> Hybrid <small>[5156]</small></label>
+										</li>
+										<li>
+											<label for="etype4">
+												<input type="checkbox"  name="etype4" id="etype4" />
+												<span class="check-in"></span> Electrics <small>[1212]</small></label>
+										</li>
+
+									</ul>
+								</div>
+
+								<div class="inner-info-section all-vehicles-contact">
+									<div class="contact-info">
+										<h5 class="view-title-style">Contact Us</h5>
+										<address>
+											PO Box: 16122 Collins Victoria 8007 <span class="line-break"></span>
+											Address: 121 King Street, Melbourne<span class="line-break"></span>
+											Victoria <span class="line-break"></span>
+											3000 Australia <span class="line-break"></span>
+											Email:<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#a4c9c5cdc8e4c8c1d0d7c0d6cdd2c18ac7cbc9"> <span class="__cf_email__" data-cfemail="ee838f8782ae828b9a9d8a9c87988bc08d8183">[email&#160;protected]</span></a><span class="line-break"></span>
+											Phone: <a href="tel:88001234567">8 800 12 34 567</a><span class="line-break"></span>
+											Fax: <a href="fax:80009876543 ">+8 000 98 76 543 </a><span class="line-break"></span>
+										</address>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="border-line">
+								&nbsp;
+							</div>
+
+						</div>
+
+					</div>
+				</section>
+
+			</div>
+			<!--Content Section End-->
+
+			<!--Footer Section start-->
+			<footer id="footer" class="bdr-0">
+				<div class="primary-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4">
+								<div class="about-us-footer">
+									<h5 class="view-title-style">About Us</h5>
+									<p>
+										Envato is proudly based in Melbourne, Australia, but our people and community live and work from all over the world.
+									</p>
+									<p>
+										We believe good ideas deserve a chance to grow. We believe people deserve to earn a living doing what they love.
+									</p>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-sm-4 text-center footer-img-gap">
+								<a href="{{url_for('index')}}" class="footer-logo"><img src="static/images/footer-logo.jpg" alt="lets drive" /></a>
+							</div>
+							<div class="col-xs-12 col-sm-4 text-right contact-info-footer">
+								<h5 class="view-title-style">Contact Us</h5>
+								<address>
+									PO Box: 16122 Collins Victoria 8007 <span class="line-break"></span>
+									Address: 121 King Street, Melbourne<span class="line-break"></span>
+									Victoria <span class="line-break"></span>
+									3000 Australia <span class="line-break"></span>
+									Email:<a href="https://Aialz Technologies.com/cdn-cgi/l/email-protection#e38e828a8fa38f86979087918a9586cd808c8e"> <span class="__cf_email__" data-cfemail="f69b979f9ab69a93828592849f8093d895999b">[email&#160;protected]</span></a><span class="line-break"></span>
+									Phone: <a href="tel:88001234567">8 800 12 34 567</a><span class="line-break"></span>
+									Fax: <a href="fax:80009876543 ">+8 000 98 76 543 </a><span class="line-break"></span>
+								</address>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom text-center">
+					<div class="container">
+						<span>&copy; All Rights Reserved. Create by <a href="http://Aialz Technologies.com/">Aialz Technologies</a></span>
+					</div>
+				</div>
+
+			</footer>
+			<!--Footer Section End-->
+		</div>
+		<!--Page Wrapper End-->
+		
+		<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="static/js/bootstrap.js"></script>
+		<script type="text/javascript" src="static/js/less.js"></script>
+		<script type="text/javascript" src="static/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="static/js/jquery-ui.js"></script>
+		<script type="text/javascript" src="static/js/jquery.selectBox.js"></script>
+		<script type="text/javascript" src="static/js/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="static/js/site.js"></script>
+	
+		<!-- Switcher Js -->
+		<script src="static/js/theme-option/style-switcher/static/js/style.switcher.js"></script>
+		<script src="static/js/theme-option/style-switcher/static/js/jquery.cookie.js"></script>
+		<!-- Switcher Js -->
+	</body>
+
+<!-- Mirrored from Aialz Technologies.com/l/letsdrive/LivePreview/{{url_for('allvehicles')}} by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Apr 2019 10:39:18 GMT -->
+</html>
